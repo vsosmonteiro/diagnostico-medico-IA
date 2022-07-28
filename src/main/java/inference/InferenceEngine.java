@@ -13,8 +13,13 @@ import static domain.Rule.Status.*;
 
 public final class InferenceEngine {
 
+    Set<Variable> workingMemory = new HashSet<>();
+
+    public InferenceEngine(Set<Variable> workingMemory) {
+        this.workingMemory = workingMemory;
+    }
+
     public ExecutionResult run(ExecutionParams params) {
-        Set<Variable> workingMemory = new HashSet<>();
         ExecutionResult result = new ExecutionResult();
 
         if (params.rules.isEmpty()) return result;
