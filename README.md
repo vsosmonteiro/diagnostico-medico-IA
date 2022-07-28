@@ -1,6 +1,6 @@
 # KBS - Knowledge-Based System
 
-Implementation of a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems) for medical diagnostic.
+Implementation of a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems).
 
 ## Requirements
 
