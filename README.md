@@ -14,5 +14,6 @@ Implementation of a [knowledge-based system](https://en.wikipedia.org/wiki/Knowl
 
 > java -jar build/libs/kbs.jar
 
-Questão 4: opção 1 do menu
-Questão 5: opção 2 do menu
+- Questão 4: opção 1 do menu
+
+- Questão 5: opção 2 do menu
